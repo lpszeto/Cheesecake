@@ -1,0 +1,66 @@
+/*@author: Lilian Szeto */
+/*fonts changes and color change*/
+h1{
+	font-family: "Lucida Handwriting", Lucida, cursive;
+	color: #7D775C;
+	text-align: center;
+}
+.bottom{
+	font: italic normal 1.4em georgia, sans-serif;
+	background-color: AntiqueWhite;
+}
+
+.p1{
+	font-weight: bold;
+}
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 	
+}
+h3{
+	margin-right: 1em;
+	display: inline-block;
+}
+p{
+	margin: 0;
+}
+/*make the hover dropdown 
+source:  https://www.w3schools.com/tags/tag_hn.asp*/
+.dropbtn {
+  background-color: #ADD8E6;
+  font-size: 1.17em;
+  margin: 0;
+  font-weight: bold;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ADD8E6;
+  width: 160px;
+  height: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow-y: scroll;
+}
+
+.dropdown-content a {
+  color: black;
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #D3D3D3;}
